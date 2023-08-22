@@ -75,3 +75,31 @@ nav{
 p{
     color: var(--clr-text);
 }
+@media  screen and (min-width: 786px) and (max-width: 1024px)  {
+    .main-container{
+        width: 780px;
+         margin: auto;
+         padding: 0 20px;
+     }
+   
+}
+@media  screen and (max-width: 786px) {
+    .main-container{
+        width: 600px;
+         margin: auto 40px;
+         padding: 0 60px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         border: 2px solid black;
+     }
+     nav{
+        gap: 200px;
+    
+    }
+    .header{
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+}
