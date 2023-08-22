@@ -86,12 +86,12 @@ p{
 @media  screen and (max-width: 480px) {
     
     .main-container{
-        width: 400px;
+        width: 300px;
          margin: auto;
      }
      .section-centre{
        margin-top: 50px;
-       margin: 0 20px;
+       margin: 0 5px;
      }
      nav{
         display: flex;  
@@ -105,6 +105,12 @@ p{
          letter-spacing: 5px;
          margin-left: -15px;
      } 
+     .toggle{
+        padding: 5px 15px;
+        font-size: 15px;
+        border-radius: 5px;
+        
+    } 
      .news-article{
          margin: 40px 20px;
      }
